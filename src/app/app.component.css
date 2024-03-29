@@ -1,0 +1,22 @@
+h3 {
+  font-size: 32px; /* Larger font size */
+  color: #ffffff; /* White color for text */
+  text-transform: uppercase; /* Convert text to uppercase */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+  border-bottom: 2px solid #ffffff; /* White bottom border */
+  padding-bottom: 5px; /* Add padding for bottom border */
+  text-align: center;
+  margin-bottom: 50px; /* Additional bottom margin */
+  background-color: transparent; /* Dark background color */
+  /* Optional: Add transition for smooth color change */
+  transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+}
+
+.container div {
+  width: 1200px;
+  margin: 0 auto;
+}
+  
+
+

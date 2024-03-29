@@ -1,0 +1,245 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* .container {
+    display: flex;
+  }
+  
+  .left {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .right {
+    flex: 1;
+    padding: 20px;
+  } */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+
+  .buttons{
+    height: 40px;
+  }
+
+  tr td:last-child{
+    width: 400px;
+  }
+  tr td:last-child button{
+    margin-left: 10px;
+  }
+
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #444;
+  }
+  
+  .form-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="date"],
+  .form-container input[type="submit"] {
+    width: calc(100% - 24px);
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .form-container input[type="text"]::placeholder,
+  .form-container input[type="date"]::placeholder {
+    color: #7f8c8d; /* Placeholder color */
+  }
+  
+  .form-container input[type="submit"] {
+    cursor: pointer;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-delete-selected{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .btn-delete-selected svg{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+
+
+  .btn-update {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-update svg{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    stroke: white;
+  }
+  
+  .btn-update:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center,;
+  }
+
+  .save-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .save-button:hover {
+    background-color: darkblue;
+  }
+  
+  .cancel-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cancel-button:hover {
+    background-color: darkred;
+  }
+
+
+  /* from input*/
+
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 0 ;
+    border-radius: 0;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    outline: none;
+  }
+  
+  /*add button*/
+
+  .add-button {
+    margin-top: 15px;
+    background-color: transparent; 
+    border: none;
+    width: 30px ;
+    height: 30px;
+    cursor: pointer;
+  }
+  .plus-icon{
+    width: 30px ;
+    height: 30px;
+  }
+
+  .remove-all{
+     background-color: transparent;
+     border:0;
+     /* margin-bottom: 15px; */
+     cursor: pointer;
+  }
+  .remove-all svg{
+    width: 25;
+     height: 25px;
+  }
+  
+  .bar-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .bar-table-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  /*input search*/
+
+input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #333; 
+  color: #fff; 
+  width: 140px;
+}
+
+input::placeholder {
+  color: #aaa; 
+}
+
+input:focus {
+  outline: none;
+  border-color: #66afe9; 
+}
+
+  
+  
+  

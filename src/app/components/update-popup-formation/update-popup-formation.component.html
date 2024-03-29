@@ -1,0 +1,11 @@
+<div class="popup" (click)="closePopup()">
+    <div class="popup-content">
+      <input type="text" placeholder="New Title" [(ngModel)]="formation.titre">
+      <input type="text" placeholder="New Description" [(ngModel)]="formation.description">
+      <input type="datetime-local" placeholder="New Start Date"[(ngModel)]="formation.dateDebut">
+      <input type="datetime-local" placeholder="New End Date"[(ngModel)]="formation.dateFin">
+      <button class="save-button" (click)="onUpdate()" >update</button>
+      <button class="cancel-button" (click)="closePopup()" >Cancel</button>
+    </div>
+</div>
+  

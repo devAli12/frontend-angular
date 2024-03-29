@@ -1,0 +1,10 @@
+<div class="popup">
+    <div class="popup-content">
+      <input type="text" placeholder="firstName" [(ngModel)]="adherentData.firstName">
+      <input type="text" placeholder="lastName" [(ngModel)]="adherentData.lastName">
+      <input type="text" placeholder="email" [(ngModel)]="adherentData.email">
+      <button class="save-button" (click)="onUpdate()"   >update</button>
+      <button class="cancel-button" (click)="closePopup()">close</button>
+    </div>
+</div>
+  
