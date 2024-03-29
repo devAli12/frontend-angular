@@ -130,6 +130,7 @@ export class FormationComponent {
 
   closePopup(){
     this.showPopup=false;
+    this.loadFormations();
   }
 
   closePopupAdhrents(){

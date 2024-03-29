@@ -49,7 +49,6 @@ export class UpdateFormPopupComponent {
   onUpdate(){
     console.log(this.formation);
     this.formationService.updateFormation(new Formation(this.formation.id,this.formation.titre,this.formation.description,this.formation.dateDebut,this.formation.dateFin)).subscribe(()=>{
-      console.log('updated');
       this.closePopup();
     })
   }
